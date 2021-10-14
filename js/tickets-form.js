@@ -98,7 +98,7 @@ function validateEmail(email) {
     errorStyle(inputEmail);
     return false;
   }
-  if (emailDomain < 2) {
+  if (emailDomain.length < 2) {
     errorStyle(inputEmail);
     return false;
   }

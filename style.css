@@ -798,7 +798,6 @@ h2 {
 .videoplayer:fullscreen video {
 	margin-top: 10px;
 	height: 95vh;
-	/* max-height: 1200px; */
 }
 
 .main-video button {
@@ -1441,9 +1440,8 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
-	text-align: right;
+	text-align: center;
 	justify-self: end;
-	width: 150px;
 }
 
 .tickets-sum h3 {
@@ -2540,6 +2538,9 @@ span.ripple {
 	.tickets-sum {
 		margin-top: -5px;
 	}
+	.tickets-sum h3{
+		font-size: 24px;
+	}
 	.tickets-checkout button {
 		margin-top: 70px;
 	}
@@ -2552,11 +2553,6 @@ span.ripple {
 	.tickets-grid {
 		display: flex;
 		flex-direction: row;
-	}
-	.tickets-grid img {
-		content: url('assets/img/tickets/tickets1-scaled1.jpeg');
-		width: 100%;
-		height: auto;
 	}
 	.tickets .section-title {
 		margin-bottom: -28px;
@@ -3230,11 +3226,6 @@ span.ripple {
 	.video-title-grid {
 		height: 122px;
 	}
-	.tickets-grid img {
-		content: url('assets/img/tickets/tickets1-scaled2.jpeg');
-		width: 100%;
-		height: auto;
-	}
 	.tickets-buy {
 		margin-left: 60px;
 	}
@@ -3717,6 +3708,7 @@ span.ripple {
 	.entry-ticket-line p {
 		font-size: 15px;
 	}
+
 }
 
 @media (max-width:360px) {
@@ -3725,5 +3717,8 @@ span.ripple {
 	}
 	.navigation-scaled .social-links li {
 		border: none;
+	}
+	.payment-subtotal p {
+		font-size: 18px;
 	}
 }

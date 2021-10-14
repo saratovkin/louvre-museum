@@ -10,12 +10,12 @@ function changeSlide() {
 
   image1.addEventListener('animationend', function () {
     this.classList.remove('hide');
-    this.setAttribute('src', `assets/img/tickets/tickets${slideNum - 1}.jpeg`);
+    this.setAttribute('src', `assets/img/tickets/tickets${slideNum - 1}.webp`);
   });
 
   image2.addEventListener('animationend', function () {
     this.classList.remove('show');
-    this.setAttribute('src', `assets/img/tickets/tickets${slideNum}.jpeg`);
+    this.setAttribute('src', `assets/img/tickets/tickets${slideNum}.webp`);
   });
   slideNum++
 }
